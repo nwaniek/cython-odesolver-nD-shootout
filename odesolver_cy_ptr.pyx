@@ -3,10 +3,6 @@ import numpy as np
 cimport numpy as np
 
 
-cdef double local_f(double u, double t):
-    return -10.0 * u
-
-
 cdef class Problem(object):
     cdef int N
     cdef double[:] dudt
