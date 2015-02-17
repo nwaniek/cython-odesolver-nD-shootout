@@ -55,7 +55,7 @@ Pointered Cython Implementation
 Results
 ~~~~~~~
 
-.. code:: bash
+.. code::
         $ ./shootout.py
         building cython modules if necessary
         running build_ext
