@@ -84,9 +84,4 @@ Conclusions
   right from the beginning and call it using Cython
 * optimized Cython looks almost like C anyway...
 
-TODO
-----
-* Improve README
-* Comparisons
-  * Python-side implementation/derivation of :code:`Problem`. Example in :code:`
 
