@@ -43,7 +43,7 @@ test(100)
 
     # emit hardware information and statistics
     print("platform: ", platform.processor())
-    print("method\t\t\truntime\tspeedup")
+    print("method\t\t\truntime\tspeed")
     print("----------------------------------------")
     for i, m in enumerate(methods):
         print("%s\t\t%6.4f\t%6.4f" % (m, ts[i], ds[i]))
@@ -58,7 +58,7 @@ test(100)
     fig.suptitle("Comparison of ODE solver optimizations", fontsize=13, fontweight="bold")
     ax.set_title(platform.processor())
     ax.set_xlabel('Implementation', fontweight="bold")
-    ax.set_ylabel('Speed Up', fontweight="bold")
+    ax.set_ylabel('Relative Speed', fontweight="bold")
     bars = ax.bar(ind, ds, width, color="#00719a")
 
     i = 0

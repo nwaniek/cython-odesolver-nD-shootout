@@ -66,7 +66,7 @@ Results
         running method 'no-slice cython'
         running method 'pointer cython'
         platform:  Intel(R) Core(TM) i3-2357M CPU @ 1.30GHz
-        method			runtime	speedup
+        method			runtime	speed
         ----------------------------------------
         pure python		4.6412	1.0000
         pure cythonized		4.0361	1.1499
